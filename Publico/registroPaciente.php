@@ -10,14 +10,12 @@
 <div class="group">
   <form action="registro.php" method="POST">
   <h2><em>Formulario de Registro</em></h2>  
-      <label for="nombre">Rut</label><input type="text" name="rut" class="form-input" required/>
-      <label for="nombre">Nombre completo</label><input type="text" name="nombreCompleto" class="form-input" required/>
-      <label for="nombre">Nombre <span><em>(requerido)</em></span></label>
-      <input type="text" name="nombre" class="form-input" required/>
-      <label for="apellido">Apellido <span><em>(requerido)</em></span></label>
-      <input type="text" name="apellido" class="form-input" required/>         
-      <label for="email">Email <span><em>(requerido)</em></span></label>
-      <input type="email" name="email" class="form-input" />
+      <label for="rut">Rut</label><input type="text" name="rut" class="form-input" required/>
+      <label for="nombreCompleto">Nombre completo</label><input type="text" name="nombreCompleto" class="form-input" required/>
+      <label for="fechaNacimietno">Fecha Nacimiento</label><input type="datetime" name="fechaNacimiento" class="form-input" required/>
+      <label for="sexo">Sexo</label><input type="text" name="sexo" class="form-input" required/>         
+      <label for="direccion">Direccion</label><input type="text" name="direccion" class="form-input" />
+      <label for="telefono">Telefono</label><input type="tel" name="telefono" class="form-input" />
      <center> <input class="form-btn" name="submit" type="submit" value="RegistrarDatos" /></center>
     </p>
   </form>
