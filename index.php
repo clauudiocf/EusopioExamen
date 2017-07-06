@@ -14,11 +14,10 @@
 </head>
 <body>
     <div>
-       
-           <a href="Privado/index.php"> Inicio privado</a>
-           <a href="Publico/index.php"> Inicio publico</a>
            <a href="iniciosesion.php"> INICIAR SESION </a>
+           <a href="insertarUsuarios.php">Registrarse</a>
     </div>
+    
         
     
 </body>
