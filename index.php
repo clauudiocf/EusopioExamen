@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
+    <title>Inicio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -13,16 +13,13 @@
     <link href="Css/css.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="container">
-        <form class="form-signin form-login" role="form" method="post" action="validar.php">
-            <h2 class="form-signin-heading">ingresar</h2>
-            <input type="email" name="usuario" class="form-control" placeholder="usuario" required autofocus>
-            <input type="password" name="pass" class="form-control" placeholder="contraseña" required>
-            <button id="enviar" type="submit" class="btn btn-lg btn-primary btn-block">aceptar</button>
-        </form>
+    <div>
+       
+           <a href="Privado/index.php"> Inicio privado</a>
+           <a href="Publico/index.php"> Inicio publico</a>
+           <a href="iniciosesion.php"> INICIAR SESION </a>
     </div>
-    <div class="container" id="resultado">
         
-    </div>
+    
 </body>
 </html>
