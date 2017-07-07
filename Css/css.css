@@ -47,6 +47,11 @@
      font-family: 'Lobster', cursive;
      font-size: 40px;
 }
+#navegador{
+    height: 50px;
+    width:100%;
+    background-color: lightskyblue;
+}
 
 
 
