@@ -40,7 +40,7 @@
                 <input class="form-control" placeholder="Nombre Completo" type="text" name="nombreCompleto" class="form-input" required/>
                 <input class="form-control" placeholder="Fecha Contratacion" type="datetime" name="fechaContratacion" class="form-input" required/>
                 <input class="form-control" placeholder="Especialidad" type="text" name="especialidad" class="form-input" required/>
-                <input class="form-control" placeholder="Valor Consulta" type="number" name="valorConsulta" class="form-input" />
+                <input class="form-control" placeholder="Valor Consulta" type="number" name="valorConsulta" class="form-input" /><br>
                <center> <input class="btn btn-lg btn-primary btn-block" name="submit" type="submit" value="RegistrarDatos" /></center>
           </form>
         </div>

@@ -38,7 +38,7 @@
                 <input class="form-control" placeholder="Fecha Nacimiento" type="datetime" name="fechaNacimiento" class="form-input" required/>
                 <input class="form-control" placeholder="Sexo" type="text" name="sexo" class="form-input" required/>
                 <input class="form-control" placeholder="Direccion" type="text" name="direccion" class="form-input" />
-                <input class="form-control" placeholder="Telefono" type="tel" name="telefono" class="form-input" />
+                <input class="form-control" placeholder="Telefono" type="tel" name="telefono" class="form-input" /><br>
                <center> <input class="btn btn-lg btn-primary btn-block" name="submit" type="submit" value="RegistrarDatos" /></center>
           </form>
         </div>
