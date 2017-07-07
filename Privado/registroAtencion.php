@@ -35,7 +35,7 @@
     <div style="text-align: center;" id="principal">
         <div class="group">
           <form class="form-signin form-login" action="registro.php" method="POST">
-            <h2 class="form-signin-heading"><em>Formulario de Registro</em></h2>  
+            <h2 class="form-signin-heading"><em>Registro Atencion</em></h2>  
                 <input class="form-control" placeholder="Rut" type="text" name="rut" class="form-input" required/>
                 <input class="form-control" placeholder="Nombre Completo" type="text" name="nombreCompleto" class="form-input" required/>
                 <input class="form-control" placeholder="Fecha Contratacion" type="datetime" name="fechaContratacion" class="form-input" required/>
