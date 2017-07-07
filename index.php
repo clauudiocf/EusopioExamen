@@ -13,10 +13,25 @@
     <link href="Css/css.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div>
-           <a href="iniciosesion.php"> INICIAR SESION </a>
-           <a href="insertarUsuarios.php">Registrarse</a>
+    
+    <div id="header">
+        <div id="menuSecundario">
+            <div id="orden"></div>
+            <div id="inicioSesion">
+                <a href="iniciosesion.php"> INICIAR SESION </a>
+            </div>
+            <div id="registroUsuario">
+                <a href="insertarUsuarios.php">REGISTRO USUARIO</a>
+            </div>
+        </div>
+        <div id="menuTop"></div>
     </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
     
         
     

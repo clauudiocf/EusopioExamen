@@ -1,6 +1,63 @@
 #contenedor{
     background-color: whitesmoke;
 }
+#header{
+    display: block;
+    height: 153px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 18px;
+    background-color: lime;
+    
+}
+#menuSecundario{
+    display: block;
+    float: right;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+}
+#orden{
+    width: 70%;
+    float: right;
+}
+#inicioSesion{
+    margin-top: 10px;
+    width: 15%;
+    float: right;
+}
+#registroUsuario{
+    margin-top: 10px;
+    width: 15%;
+    float: right;
+}
+#menuTop{
+    background-color: brown;
+    height:107px;
+    width:100%;
+    line-height:normal;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:-186px;
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:45px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .body {
               padding-top: 40px;
               padding-bottom: 40px;
