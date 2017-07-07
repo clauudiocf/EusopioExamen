@@ -3,8 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>RegistroAtencion</title>
+        <link href="../Css/css.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <div id="header">
+        <div id="menuSecundario">
+            <div id="orden"></div>
+            <div id="inicioSesion">
+                <a href="iniciosesion.php"> INICIAR SESION </a>
+            </div>
+            <div id="registroUsuario">
+                <a href="insertarUsuarios.php">REGISTRO USUARIO</a>
+            </div>
+        </div>
+        <div id="menuTop">
+            <div id="logo">Nosocomio Municipal</div>
+        </div>  
+    </div>
+    <div id="navegador">
+        <div id="botonMenu"><a href="Privado/registroAtencion.php">Registro Atencion</a></div>
+        <div id="botonMenu"><a href="Publico/registroPaciente.php">Registro Paciente</a></div>
+        <div></div>
+        <div></div>
+        
+    </div>
         <div class="group">
           <form action="registro.php" method="POST">
             <h2><em>Formulario de Registro</em></h2>  
