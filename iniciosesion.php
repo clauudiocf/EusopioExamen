@@ -24,7 +24,7 @@
             </div>
         </div>
         <div id="menuTop">
-            <div id="logo">Nosocomio Municipal</div>
+            <div id="logo"><a id="link" href="index.php">Nosocomio Municipal</a></div>
         </div>  
     </div>
     <div id="navegador">
@@ -34,16 +34,19 @@
         <div></div>
         
     </div>
-    <div class="container">
-        <form class="form-signin form-login" role="form" method="post" action="validar.php">
-            <h2 class="form-signin-heading">Ingresar</h2>
-            <input type="email" name="usuario" class="form-control" placeholder="usuario" required autofocus>
-            <input type="password" name="pass" class="form-control" placeholder="contraseña" required>
-            <button id="enviar" type="submit" class="btn btn-lg btn-primary btn-block">aceptar</button>
-        </form>
+    <div style="text-align: center; margin-top: 50px;" id="principal">
+        <div class="container">
+            <form class="form-signin form-login" role="form" method="post" action="validar.php">
+                <h2 class="form-signin-heading">Ingresar</h2>
+                <input type="email" name="usuario" class="form-control" placeholder="usuario" required autofocus>
+                <input type="password" name="pass" class="form-control" placeholder="contraseña" required>
+                <button id="enviar" type="submit" class="btn btn-lg btn-primary btn-block">aceptar</button>
+            </form>
+        </div>
+        <div class="container" id="resultado">
+
+        </div>
     </div>
-    <div class="container" id="resultado">
-        
-    </div>
+    <div id="piePagina"><p>Contacto: 999999nuevecito 555555cincorriente</p></div>
 </body>
 </html>

@@ -11,23 +11,21 @@
         <div id="menuSecundario">
             <div id="orden"></div>
             <div id="inicioSesion">
-                <a href="iniciosesion.php"> INICIAR SESION </a>
+                <a href="../iniciosesion.php"> INICIAR SESION </a>
             </div>
             <div id="registroUsuario">
-                <a href="insertarUsuarios.php">REGISTRO USUARIO</a>
+                <a href="../insertarUsuarios.php">REGISTRO USUARIO</a>
             </div>
         </div>
         <div id="menuTop">
-            <div id="logo">Nosocomio Municipal</div>
+            <div id="logo"><a id="link" href="../index.php">Nosocomio Municipal</a></div>   
         </div>  
     </div>
     <div id="navegador">
         <div id="botonMenu"><a href="../Privado/registroAtencion.php">Registro Atencion</a></div>
-        <div id="botonMenu"><a href="registroPaciente.php"></a>Registro Paciente</a></div>
-        <div></div>
-        <div></div>
-        
+        <div id="botonMenu"><a href="registroPaciente.php">Registro Paciente</a></div>
     </div>
+    <div style="text-align: center; margin-top: 50px;" id="principal">
         <div class="group">
           <form action="registro.php" method="POST">
             <h2><em>Formulario de Registro</em></h2>  
@@ -46,6 +44,8 @@
                <center> <input class="form-btn" name="submit" type="submit" value="RegistrarDatos" /></center>
           </form>
         </div>
+    </div>
+    <div id="piePagina"><p>Contacto: 999999nuevecito 555555cincorriente</p></div>
     </body>
 </html>
 
