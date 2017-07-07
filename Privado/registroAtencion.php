@@ -5,6 +5,10 @@
         <title>RegistroAtencion</title>
         <link href="../Css/css.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="../Css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="header">
@@ -28,21 +32,16 @@
         <div></div>
         
     </div>
-    <div style="text-align: center; margin-top: 50px;" id="principal">
+    <div style="text-align: center;" id="principal">
         <div class="group">
-          <form action="registro.php" method="POST">
-            <h2><em>Formulario de Registro</em></h2>  
-                <label for="rut">Rut</label><input type="text" name="rut" class="form-input" required/>
-                <br>
-                <label for="nombreCompleto">Nombre completo</label><input type="text" name="nombreCompleto" class="form-input" required/>
-                <br>
-                <label for="fechaContratacion">Fecha de contratacion</label><input type="datetime" name="fechaContratacion" class="form-input" required/>
-                <br>
-                <label for="especialidad">Especialidad</label><input type="text" name="especialidad" class="form-input" required/>
-                <br>
-                <label for="valorConsulta">Valor Consulta</label><input type="number" name="valorConsulta" class="form-input" />
-                <br>
-               <center> <input class="form-btn" name="submit" type="submit" value="RegistrarDatos" /></center>
+          <form class="form-signin form-login" action="registro.php" method="POST">
+            <h2 class="form-signin-heading"><em>Formulario de Registro</em></h2>  
+                <input class="form-control" placeholder="Rut" type="text" name="rut" class="form-input" required/>
+                <input class="form-control" placeholder="Nombre Completo" type="text" name="nombreCompleto" class="form-input" required/>
+                <input class="form-control" placeholder="Fecha Contratacion" type="datetime" name="fechaContratacion" class="form-input" required/>
+                <input class="form-control" placeholder="Especialidad" type="text" name="especialidad" class="form-input" required/>
+                <input class="form-control" placeholder="Valor Consulta" type="number" name="valorConsulta" class="form-input" />
+               <center> <input class="btn btn-lg btn-primary btn-block" name="submit" type="submit" value="RegistrarDatos" /></center>
           </form>
         </div>
     </div>

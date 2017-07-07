@@ -6,6 +6,10 @@
 	<script type="text/javascript" src="js/code.js"></script>
         <link href="Css/css.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="../Css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="header">
@@ -31,13 +35,13 @@
         
     </div>
     <div style="text-align: center; margin-top: 50px;" id="principal">
-        <div>
-            <h1>Insertar Usuarios</h1>
-            <label>Usuario:</label>
-            <input type="text" id="usuario"><br>
-            <label>Contraseña:</label>
-            <input type="password" id="pass"><br>
-            <input type="button" value="registrar" id="btnregistrar">
+        <div class="container">
+            <form class="form-signin form-login" role="form" method="post" action="validar.php">
+                <h1 class="form-signin-heading">Insertar Usuarios</h1>
+                <input class="form-control" placeholder="usuario" type="text" id="usuario">
+                <input class="form-control" placeholder="Contraseña"type="password" id="pass"><br>
+                <input  class="btn btn-lg btn-primary btn-block" type="button" value="registrar" id="btnregistrar">
+            </form>
        </div>
        <div id="resultado">
            

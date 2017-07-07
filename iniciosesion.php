@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script src="js/jquery-1.11.1.min.js"></script>
-     <script type="text/javascript" src="js/code.js"></script>
+    <script type="text/javascript" src="js/code.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link href="Css/css.css" rel="stylesheet" type="text/css"/>
 </head>
