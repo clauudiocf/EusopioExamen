@@ -1,3 +1,6 @@
+#link{
+    color:white;
+}
 #contenedor{
     background-color: whitesmoke;
     font-family: 'Lobster', cursive;
@@ -60,6 +63,20 @@
     margin-top: 10px;
     color: white;
     font-size: 18px;
+}
+#principal{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+#piePagina{
+    display: block;
+    float: end;
+    height: 45px;
+    width: 100%;
+    background-color: #2aabd2;
+    color: white;
+    text-align: center;
 }
 
 
