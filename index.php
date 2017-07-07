@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Inicio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script src="js/jquery-1.11.1.min.js"></script>
@@ -24,7 +24,10 @@
                 <a href="insertarUsuarios.php">REGISTRO USUARIO</a>
             </div>
         </div>
-        <div id="menuTop"></div>
+        <div id="menuTop">
+            <div id="logo">Nosocomio Municipal</div>
+        </div>
+            
     </div>
     <div></div>
     <div></div>

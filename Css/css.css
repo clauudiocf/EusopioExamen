@@ -1,11 +1,11 @@
 #contenedor{
     background-color: whitesmoke;
+    font-family: 'Lobster', cursive;
 }
 #header{
     display: block;
     height: 153px;
     width: 100%;
-    font-family: Arial;
     font-size: 18px;
     background-color: red;
     
@@ -36,6 +36,16 @@
     height:108px;
     width:100%;
     float: left;
+}
+#logo{
+     height: 108px;
+     width:30%;
+     position: relative;
+     text-align: center;
+     margin-top: 20px;
+     color: white;
+     font-family: 'Lobster', cursive;
+     font-size: 40px;
 }
 
 
