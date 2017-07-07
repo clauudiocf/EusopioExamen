@@ -29,10 +29,11 @@
         </div>  
     </div>
     <div id="navegador">
-        <div><a href="Privado/registroAtencion.php">Registro Atencion</a></div>
-        <div><a href="Publico/registroPaciente.php">Registro Paciente</a></div>
+        <div id="botonMenu"><a href="Privado/registroAtencion.php">Registro Atencion</a></div>
+        <div id="botonMenu"><a href="Publico/registroPaciente.php">Registro Paciente</a></div>
         <div></div>
         <div></div>
+        
     </div>
     <div></div>
     <div></div>
