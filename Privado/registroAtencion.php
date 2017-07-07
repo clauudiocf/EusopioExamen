@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>RegistroAtencion</title>
         <link href="../Css/css.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
     <body>
         <div id="header">
