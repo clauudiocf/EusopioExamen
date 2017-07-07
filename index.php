@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Inicio</title>
+    <title>Nosocomio Municipal</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -26,10 +26,14 @@
         </div>
         <div id="menuTop">
             <div id="logo">Nosocomio Municipal</div>
-        </div>
-            
+        </div>  
     </div>
-    <div></div>
+    <div id="navegador">
+        <div><a href="Privado/registroAtencion.php">Registro Atencion</a></div>
+        <div><a href="Publico/registroPaciente.php">Registro Paciente</a></div>
+        <div></div>
+        <div></div>
+    </div>
     <div></div>
     <div></div>
     <div></div>
