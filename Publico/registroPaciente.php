@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Formulario de Registro1Paciente</title>
-        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/css.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="header">
